@@ -1,0 +1,136 @@
+@import url(./fonts/Montserrat.css);
+
+.page {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+/****************** HEADER ********************/
+.header {
+  width: 60%;
+  height: 50px;
+  margin: 25px 0 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 128.4px;
+  height: 22.85px;
+}
+
+.header__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #B3B3B3;
+}
+
+.header__phone-number {
+  color: #37373F;
+}
+/****************** HEADER ********************/
+
+
+/****************** MAIN ********************/
+.main {
+  width: 100%;
+}
+/****************** MAIN ********************/
+
+/****************** Section PROMO ********************/
+.promo {
+  width: 100%;
+  height: 840px;
+  position: relative;
+}
+
+.promo__banner {
+  width: 100%;
+  height: 840px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background-image: url(./image/helimain.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.promo__shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  width: 100%;
+  height: 840px;
+  position: absolute;
+  top: 0;
+}
+
+.promo__title {
+  color: #FFFFFF;
+  padding: 285px 0 0;
+  margin: 0 0 50px 20%;
+  width: 46%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  position: relative;
+  z-index: 3;
+}
+
+.promo__title_yellow-text {
+  color: #FC9B09;
+}
+
+.promo__input{
+  margin-left: 20%;
+  padding: 23px 37px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  background: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 3;
+}
+.promo__input:hover{
+  background-color: rgb(150, 150, 150);
+}
+
+.info {
+  margin-left: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info__left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__right-column {
+  width: 552px;
+  height: 374px;
+}
