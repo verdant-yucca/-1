@@ -128,9 +128,32 @@
 .info__left-column {
   display: flex;
   flex-direction: column;
+  padding-right: 3%;
 }
 
 .info__right-column {
   width: 552px;
   height: 374px;
+}
+
+.info__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+
+  color: #37373F;
+}
+
+.info__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #37373F;
+}
+
+.info__list {
+
 }
